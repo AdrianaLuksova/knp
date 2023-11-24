@@ -10,7 +10,7 @@ optionImages.forEach((image, index) => {
     image.classList.add("active");
 
     userResult.src = cpuResult.src = "img/kamen.jpg";
-    result.textContent = "Wait...";
+    result.textContent = "AI vybírá tah";
 
     optionImages.forEach((image2, index2) => {
       index !== index2 && image2.classList.remove("active");
